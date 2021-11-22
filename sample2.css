@@ -1,0 +1,48 @@
+body
+{
+box-sizing: border-box;
+}
+
+.gridcontiner
+{
+    background-color : white;
+        display: grid;
+    grid-template-areas: 
+                        'header header header header header'
+                        'nav  article article article article'
+                        'nav  ads ads ads ads'
+                        'footer footer footer footer footer';
+                        
+ grid-template-rows: 80px 1fr 90px 80px;   
+ height:500px; 
+ width: 700px;
+ margin-top: 100px;margin-left: 200px; 
+ grid-column-gap: 5px;
+ grid-row-gap:5px;    
+ 
+}
+.item
+{
+    background-color:rgb(14, 175, 14);
+    padding: 10px;   
+}
+.header
+{
+    grid-area: header;
+}
+.nav
+{
+    grid-area: nav;
+}
+.article
+{
+    grid-area: article;
+}
+.ads
+{
+    grid-area: ads;
+}
+.footer
+{
+    grid-area: footer;
+}

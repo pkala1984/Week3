@@ -1,0 +1,22 @@
+.gridcontainer
+{
+    background-color: red;
+    height: 500px;
+    width: 800px;
+    margin:auto;margin-top: 70px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 55px 55px;
+    text-align: center;        
+}
+.gridcontainer>div
+{
+    color: white;
+    font-family: 'Arial Narrow Bold';
+    margin-top: 200px;
+
+}
+.countdown,.time,.min,.sec
+{
+    font-size: 50px;
+}
